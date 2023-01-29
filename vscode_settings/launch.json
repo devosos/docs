@@ -1,0 +1,37 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "chrome",
+                "--web-port",
+                "5000"
+            ],
+            
+        },
+        {
+            "name": "FlutteriOS",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "9500C5E4-65D7-4021-A773-24A5D548563F",
+            ],
+        },
+        {
+            "name": "FlutterAndroidEmulator",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "emulator-5554",
+            ],
+        }
+        
+    ]
+}
